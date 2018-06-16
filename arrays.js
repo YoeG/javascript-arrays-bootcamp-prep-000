@@ -81,13 +81,13 @@ function removeElementFromBeginningOfArray (array)
 
 {
   
-  var newArray = array.slice()
+  var newArray = array.slice(1)
   newArray.shift();
   return newArray
   
 }
 
-anArray = [1,2,3]
+ const anArray = [1,2,3]
 console.log(anArray[0])
 removeElementFromBeginningOfArray(anArray)
 
