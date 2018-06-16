@@ -92,7 +92,7 @@ function removeElementFromEndOfArray (array)
 {
   
   var newArray = array.slice(0,1)
-  
+  console.log(newArray[2])
   return newArray
   
 }
