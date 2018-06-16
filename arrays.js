@@ -69,10 +69,10 @@ function destructivelyRemoveElementFromEndOfArray (array)
   
 }
 
-function accessElementInArray ()
+function accessElementInArray (array, index)
 
 {
-  
+  return array[index]
   
 }
 
