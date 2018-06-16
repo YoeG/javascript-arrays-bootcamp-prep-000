@@ -87,6 +87,9 @@ function removeElementFromBeginningOfArray (array)
   
 }
 
+anArray = [1,2,3]
+removeElementFromBeginningOfArray(anArray)
+
 function removeElementFromEndOfArray (array)
 
 {
