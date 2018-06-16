@@ -88,7 +88,7 @@ function removeElementFromBeginningOfArray (array)
 }
 
 anArray = [1,2,3]
-
+console.log(anArray[0])
 removeElementFromBeginningOfArray(anArray)
 
 console.log(anArray[0])
