@@ -91,7 +91,7 @@ function removeElementFromEndOfArray (array)
 
 {
   
-  var newArray = array.slice(0,1)
+  var newArray = array.slice(0,2)
   console.log(newArray[0])
   return newArray
   
