@@ -82,7 +82,6 @@ function removeElementFromBeginningOfArray (array)
 {
   
   var newArray = array.slice(1)
-  newArray.shift();
   return newArray
   
 }
