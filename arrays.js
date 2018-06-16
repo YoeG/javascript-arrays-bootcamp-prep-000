@@ -86,12 +86,7 @@ function removeElementFromBeginningOfArray (array)
   
 }
 
- const anArray = [1,2,3]
-console.log(anArray[0])
-removeElementFromBeginningOfArray(anArray)
-
-console.log(anArray[0])
-
+ 
 function removeElementFromEndOfArray (array)
 
 {
@@ -102,4 +97,6 @@ function removeElementFromEndOfArray (array)
   
 }
 
-
+const anArray = [1,2,3]
+removeElementFromEndOfArray(anArray)
+console.log(anArray[2])
