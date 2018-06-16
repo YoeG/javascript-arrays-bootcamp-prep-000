@@ -96,8 +96,8 @@ function removeElementFromEndOfArray (array)
 
 {
   
-  var newArray = array;
-  newArray.pop()
+  var newArray = array.slice(2)
+  
   return newArray
   
 }
